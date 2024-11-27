@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --secondary: #f3f4f8;
+  --black: #222222;
+  --white: #ffffff;
+  --blue-primary: #003eff;
+  --blue-secondary: #4967d5;
+  --green: #30c52b;
+  --black-100: #5f5f5f;
+  --black-text: #000003;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.premium-card-background {
+  background-image: url(/public/images/premium\ card\ bg.png);
+  background-repeat: no-repeat;
+  background-position: -90% bottom;
+}
