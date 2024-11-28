@@ -25,7 +25,7 @@ const ProgressBar = ({
       }}
       className="rounded-[1rem]  relative overflow-hidden"
     >
-      <ProgressBarOutlines /> {/* Render outlines first, behind the progress */}
+      <ProgressBarOutlines />
       <div
         style={{
           ...progressStyle,

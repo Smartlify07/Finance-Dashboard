@@ -22,7 +22,7 @@ const RecentActivities = () => {
       <Card.Body>
         <ul className="flex flex-col gap-[1.6rem]">
           {transactions.slice(0, 3).map((transaction) => (
-            <RecentActivityItem {...transaction} />
+            <RecentActivityItem key={transaction.id} {...transaction} />
           ))}
         </ul>
       </Card.Body>

@@ -5,7 +5,7 @@ import { savings } from '../../data/savings';
 
 const Savings = () => {
   return (
-    <Card className="font-manrope  lg:basis-[50%] xl:basis-[40%] bg-white">
+    <Card className="font-manrope  md:basis-[50%] xl:basis-[40%] bg-white">
       <div className="flex items-center mb-[2rem] w-full justify-between">
         <Card.Title
           title="Savings"

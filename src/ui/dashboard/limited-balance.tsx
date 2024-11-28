@@ -5,7 +5,7 @@ import Indicator from './indicator';
 
 const LimitedBalance = ({ limitedBalance }: Account) => {
   return (
-    <Card className="bg-white flex flex-col gap-[1.4rem]">
+    <Card className="bg-white flex flex-col gap-[1.4rem] md:w-full">
       <Card.Title
         title="Limited Balance"
         className="text-[2rem] xl:text-[2.4rem] font-normal tracking-tight text-black-text"
