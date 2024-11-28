@@ -1,9 +1,7 @@
-import { usePremiumCard } from '../../hooks/usePremiumCard';
 import Card from '../card';
 import CurrencyConverter from './currency-converter';
 
 const CashflowAnalytics = () => {
-  const { isPremiumCardVisible } = usePremiumCard();
   return (
     <Card
       className={`bg-white transition-all w-full

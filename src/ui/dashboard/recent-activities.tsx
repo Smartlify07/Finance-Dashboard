@@ -9,7 +9,7 @@ const RecentActivities = () => {
       <div className="flex items-center justify-between">
         <Card.Title
           title="Recent Activity"
-          className="lg:text-[2rem] xl:text-[2.4rem] font-normal tracking-tight text-black-text"
+          className="text-[2rem] lg:text-[2rem] xl:text-[2.4rem] font-normal tracking-tight text-black-text"
         />
         <Card.Button
           value="Monthly"

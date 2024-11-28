@@ -8,7 +8,7 @@ const NavbarEnd = () => {
     <div className="flex items-center  gap-[1rem]">
       <Search />
 
-      <div className="flex items-center justify-center rounded-full w-[5rem] h-[5rem] bg-secondary ">
+      <div className="flex items-center justify-center rounded-full size-[4rem] lg:w-[5rem] lg:h-[5rem] bg-secondary ">
         <GoBell className="text-black" size={20} />
       </div>
 

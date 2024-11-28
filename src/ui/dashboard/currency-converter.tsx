@@ -19,10 +19,10 @@ const CurrencyConverter = () => {
 
         <div className="flex flex-col gap-[0.24rem]">
           <div className="flex items-center self-center">
-            <h2 className="text-black font-normal font-manrope text-[1.8rem] whitespace-nowrap">
+            <h2 className="text-black font-normal font-manrope text-[1.4rem] lg:text-[1.8rem] whitespace-nowrap">
               1,000 USD =
             </h2>
-            <h2 className="text-blue-primary font-normal font-manrope text-[1.8rem] whitespace-nowrap">
+            <h2 className="text-blue-primary font-normal font-manrope text-[1.4rem] lg:text-[1.8rem] whitespace-nowrap">
               1,000 <span className="text-black">USD</span>
             </h2>
           </div>
@@ -40,9 +40,9 @@ const SwitchButton = () => {
   const { isPremiumCardVisible } = usePremiumCard();
   return (
     <button
-      className={`bg-blue-primary absolute rounded-full w-[4.5rem] h-[4.5rem] z-[100] flex items-center justify-center  ${
+      className={`bg-blue-primary absolute rounded-full w-[4.2rem] h-[4.2rem] z-[100] flex items-center justify-center  ${
         isPremiumCardVisible
-          ? 'right-[45%] xl:right-[8rem] xxl:right-[45%]'
+          ? 'right-[45%] xl:right-[6.5rem] xxl:right-[45%]'
           : 'right-[45%]'
       } top-[6rem] gap-[0.1rem]`}
     >
@@ -56,9 +56,7 @@ const CurrencyToConvertFrom = () => {
 
   return (
     <div className="flex flex-col items-start w-full  gap-[0.1rem]">
-      <label className="text-[#484848] lg:text-[1.4rem] xl:text-[1.4rem]">
-        Amount
-      </label>
+      <label className="text-[#484848] text-[1.4rem]">Amount</label>
       <div className="relative flex w-full">
         <input
           type="text"
@@ -83,9 +81,7 @@ const CurrencyToConvertTo = () => {
 
   return (
     <div className="flex flex-col items-start w-full  gap-[0.1rem]">
-      <label className="text-[#484848] lg:text-[1.4rem] xl:text-[1.4rem]">
-        To
-      </label>
+      <label className="text-[#484848] text-[1.4rem]">Amount To</label>
       <div className="relative flex w-full">
         <input
           type="text"

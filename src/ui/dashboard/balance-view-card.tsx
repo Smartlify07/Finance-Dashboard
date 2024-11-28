@@ -8,11 +8,11 @@ import {
 
 const BalanceViewCard = () => {
   return (
-    <Card className="bg-black flex flex-col  gap-[1rem] w-full xl:w-auto">
+    <Card className="bg-black flex flex-col  gap-[1rem]  xl:w-auto">
       <div className="flex items-center justify-between">
         <Card.Title
           title="Total Balance"
-          className="text-white font-manrope font-normal lg:text-[2rem] xl:text-[2.4rem] "
+          className="text-white font-manrope font-normal text-[2rem] lg:text-[2rem] xl:text-[2.4rem] "
         />
         <Card.Button
           value="Monthly"

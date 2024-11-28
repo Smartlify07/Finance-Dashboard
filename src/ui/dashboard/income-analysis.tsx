@@ -15,8 +15,8 @@ const IncomeAnalysis = () => {
       <div className="flex items-center w-full justify-between">
         <Card.Title
           title="Income Analysis"
-          className="text-[2.4rem] font-normal tracking-tight text-black-text"
-        />{' '}
+          className="text-[2rem] lg:text-[2.4rem] font-normal tracking-tight text-black-text"
+        />
         <Card.Button
           value="Monthly"
           className="text-[1.4rem] gap-[0.5rem] font-manrope flex items-center text-white bg-gray-50 py-[0.5rem] px-[1rem] rounded-[1.6rem] "
@@ -28,7 +28,7 @@ const IncomeAnalysis = () => {
         <div className="flex items-center gap-[1rem]">
           <Card.Title
             title={`$${totalIncome.toLocaleString()}`}
-            className="text-black-text text-[3.2rem] font-manrope font-medium"
+            className="text-black-text text-[2.8rem] lg:text-[3.2rem] font-normal font-manrope lg:font-medium"
           />
 
           <Indicator type="increment" value={10} />

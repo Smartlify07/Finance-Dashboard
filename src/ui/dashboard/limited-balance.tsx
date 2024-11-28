@@ -15,7 +15,7 @@ const LimitedBalance = ({ limitedBalance }: Account) => {
         <div className="flex items-center justify-between">
           <Card.Title
             title={`$${limitedBalance?.toLocaleString()}`}
-            className="text-[2.8rem] font-manrope font-normal text-black-text"
+            className="text-[2rem] lg:text-[2.8rem] font-manrope font-normal text-black-text"
           />
           <Indicator value={10} type="increment" />
         </div>

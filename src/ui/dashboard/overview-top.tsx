@@ -4,16 +4,16 @@ import { CiExport } from 'react-icons/ci';
 
 const OverviewTop = () => {
   return (
-    <section className="flex font-intertight items-center justify-between w-full">
+    <section className="flex font-intertight items-center justify-between  self-start lg:self-stretch">
       <div className="flex flex-col gap-[1rem]">
         <header>
-          <h1 className="text-[4.8rem] font-medium font-manrope text-black-text">
-            Welcome Michael
+          <h1 className="text-[2.4rem] lg:text-[4.8rem] font-medium font-manrope text-black-text">
+            Welcome Michael!
           </h1>
         </header>
         {/* Todo add breadcrumb */}
       </div>
-      <div className="flex items-center gap-[1rem]">
+      <div className="hidden lg:flex items-center gap-[1rem]">
         <Button
           reverseOrder
           value="Export"
