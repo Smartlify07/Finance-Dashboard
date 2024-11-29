@@ -1,10 +1,6 @@
-import { useRef } from 'react';
 import { RiSearch2Line } from 'react-icons/ri';
 
 const Search = () => {
-  const searchRef = useRef(null);
-  console.log(searchRef);
-
   return (
     <>
       <div className="relative hidden lg:flex items-center font-raleway   ">
