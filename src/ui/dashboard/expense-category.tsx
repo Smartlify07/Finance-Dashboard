@@ -5,7 +5,7 @@ import ExpenseCategoryIndicator from './expense-category-indicator';
 
 const ExpenseCategory = () => {
   return (
-    <Card className="bg-white col-span-5 w-full md:w-auto flex flex-col gap-[1.4rem]">
+    <Card className="bg-white col-span-2  md:w-auto flex flex-col gap-[1.4rem]">
       <div className="flex items-center w-full justify-between">
         <Card.Title
           title="Expense Category"

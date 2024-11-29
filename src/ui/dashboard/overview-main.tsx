@@ -15,7 +15,7 @@ const OverviewMain = () => {
             <IncomeAnalysis />
             <Savings />
           </div>
-          <div className="col-span-8  flex  flex-col md:flex-row lg:items-start items-start gap-[2rem] border-black">
+          <div className="col-span-8  flex  flex-col md:flex-row lg:items-start items-start gap-[2rem] ">
             <ExpenseCategory />
             <div className="flex flex-col gap-[2rem]  lg:flex-col lg:gap-[1.4rem] w-full  lg:col-span-5  xl:gap-[2rem] xl:flex-row">
               <CashflowAnalytics />

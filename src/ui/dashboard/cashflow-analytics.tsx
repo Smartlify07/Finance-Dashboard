@@ -4,7 +4,7 @@ import CurrencyConverter from './currency-converter';
 const CashflowAnalytics = () => {
   return (
     <Card
-      className={`bg-white transition-all w-full
+      className={`bg-white transition-all lg:w-6/12
       } flex flex-col px-[1rem] gap-[1.4rem]`}
     >
       <Card.Title

@@ -62,3 +62,9 @@ export interface ExpenseCategory {
   outcome: number;
   freeBudget: number;
 }
+
+export interface CurrencyConverterResponse {
+  data: {
+    [currencyName: string]: { code: string; value: number };
+  };
+}
