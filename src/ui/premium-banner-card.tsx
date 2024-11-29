@@ -7,7 +7,7 @@ import { usePremiumCard } from '../hooks/usePremiumCard';
 const PremiumBannerCard = () => {
   const { handleHidePremiumCard, isPremiumCardVisible } = usePremiumCard();
   return isPremiumCardVisible ? (
-    <Card className="bg-black premium-card-background  font-manrope justify-between  flex flex-col gap-[1rem] md:gap-0">
+    <Card className="bg-black premium-card-background  font-manrope justify-between  lg:w-6/12 flex flex-col gap-[1rem] md:gap-0">
       <div className="flex flex-col gap-[1rem]">
         <div className="flex items-center w-full justify-between">
           <div className="rounded-[2rem] flex items-center justify-center w-[4rem] h-[4rem] bg-white">

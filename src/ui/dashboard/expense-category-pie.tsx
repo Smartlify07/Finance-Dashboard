@@ -11,7 +11,7 @@ const ExpenseCategoryPie = () => {
   const iR = 100; // Increased inner radius
   const oR = 150;
   return (
-    <PieChart width={320} height={200}>
+    <PieChart width={300} height={200}>
       <defs>
         <pattern
           id="pie"
