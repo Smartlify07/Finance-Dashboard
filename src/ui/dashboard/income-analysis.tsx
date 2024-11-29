@@ -9,7 +9,6 @@ const IncomeAnalysis = () => {
     (total, acc) => total + acc.value,
     0
   );
-  console.log(totalIncome);
   return (
     <Card className="font-manrope basis-[50%] xl:basis-[60%] bg-white">
       <div className="flex items-center w-full justify-between">
