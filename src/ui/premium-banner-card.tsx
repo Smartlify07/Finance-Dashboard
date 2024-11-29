@@ -5,7 +5,7 @@ import { LuKeyRound } from 'react-icons/lu';
 import { usePremiumCard } from '../hooks/usePremiumCard';
 
 const PremiumBannerCard = () => {
-  const { handleHidePremiumCard, isPremiumCardVisible } = usePremiumCard();
+  const { isPremiumCardVisible } = usePremiumCard();
   return isPremiumCardVisible ? (
     <Card className="bg-black premium-card-background  font-manrope justify-between  lg:w-6/12 flex flex-col gap-[1rem] md:gap-0">
       <div className="flex flex-col gap-[1rem]">
@@ -14,10 +14,7 @@ const PremiumBannerCard = () => {
             <LuKeyRound className="text-black" size={24} />
           </div>
 
-          <Card.Button
-            onClick={handleHidePremiumCard}
-            className="flex items-center justify-center text-white bg-black-100 w-[3rem] h-[3rem] rounded-[0.6rem]"
-          >
+          <Card.Button className="flex items-center justify-center text-white bg-black-100 w-[3rem] h-[3rem] rounded-[0.6rem]">
             <BiX size={24} />
           </Card.Button>
         </div>
